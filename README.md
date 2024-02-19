@@ -8,7 +8,6 @@ by glazeWM , PowerToys , WSL2 , etc ...
 ![스크린샷 2024-02-19 190843](https://github.com/Cybecho/Windows_Setting/assets/42949995/b8539340-05f5-4e61-be68-fb17e656a127)
 
 ```
-This is my first time writing on reddit.
 
 I'm a big fan of the MAC environment, and recently i3wm on LINUX has also intrigued me.
 
@@ -30,6 +29,8 @@ Make sure to use Google Translate.
 ```
 
 ```
+PC : Thinkpad X1 Nano Gen 1
+
 WM: GlazeWM
 
 OS: Windows 11 Pro
