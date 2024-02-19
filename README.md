@@ -1,4 +1,5 @@
 # Windows_Setting
+[GlazeWM] My first 'RICE' on windows11
 by glazeWM , PowerToys , WSL2 , etc ...
 
 # 윈도우 개발 환경
