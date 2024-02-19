@@ -3,7 +3,7 @@ by glazeWM , PowerToys , WSL2 , etc ...
 
 # 윈도우 개발 환경
 
-![Untitled](%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%2089f1cf2f56204d469a3d6dfb7a23a022/Untitled.png)
+![스크린샷 2024-02-19 190843](https://github.com/Cybecho/Windows_Setting/assets/42949995/b8539340-05f5-4e61-be68-fb17e656a127)
 
 ## 1. 윈도우 태스크바 및 우클릭 윈도우 10처럼 설정
 
