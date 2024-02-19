@@ -6,7 +6,25 @@ by glazeWM , PowerToys , WSL2 , etc ...
 ![스크린샷 2024-02-19 190843](https://github.com/Cybecho/Windows_Setting/assets/42949995/b8539340-05f5-4e61-be68-fb17e656a127)
 
 ```
-Windows에 MAC과 LINUX 의 UI/UX 를 섞어 저만의 Windows로 구성했습니다
+This is my first time writing on reddit.
+
+I'm a big fan of the MAC environment, and recently i3wm on LINUX has also intrigued me.
+
+If I could only use MAC and LINUX for the rest of my life, I'd be happy.
+
+But society forces me to use Windows.
+
+(Especially if you live in Korea)
+
+So I built my own development environment that combines the features of MAC's hotcorner and Linux's i3wm on Windows.
+
+I think it's pretty good.
+
+I'll leave a link to my git repository for the powerToys and GlazeWM configuration files.
+
+But the description of this repository is probably in Korean.
+
+Make sure to use Google Translate.
 ```
 
 ```
