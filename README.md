@@ -47,7 +47,7 @@ Package Managers: Scoop, Choco
 
 ## 5. PowerToys (Custom HotKey)
 
-> **[(키보드 맵핑 `.json` 세팅 파일)](https://github.com/Cybecho/Windows_Setting/blob/main/default.json)**
+> **[`(키보드 맵핑 .json 세팅 파일)`](https://github.com/Cybecho/Windows_Setting/blob/main/default.json)**
 > 
 
 https://github.com/Cybecho/PowerToys_Keyboard_Addon
@@ -64,7 +64,7 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 ## 7. GlazeWM
 
-> **[(`config`파일 )](https://github.com/Cybecho/Windows_Setting/blob/main/config.yaml)**
+> **[`(config파일 )`](https://github.com/Cybecho/Windows_Setting/blob/main/config.yaml)**
 > 
 
 [GlazeWM 윈도우용 i3](https://www.notion.so/GlazeWM-i3-e197a8a316584a1c9fbe25f3c16f1317?pvs=21) 
