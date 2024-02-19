@@ -22,6 +22,7 @@ So I built my own development environment that combines the features of MAC's ho
 I think it's pretty good.
 
 I'll leave a link to my git repository for the powerToys and GlazeWM configuration files.
+
 ```
 
 ```
