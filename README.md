@@ -5,6 +5,28 @@ by glazeWM , PowerToys , WSL2 , etc ...
 
 ![스크린샷 2024-02-19 190843](https://github.com/Cybecho/Windows_Setting/assets/42949995/b8539340-05f5-4e61-be68-fb17e656a127)
 
+```
+Windows에 MAC과 LINUX 의 UI/UX 를 섞어 저만의 Windows로 구성했습니다
+```
+
+```
+WM: GlazeWM
+
+OS: Windows 11 Pro
+
+Terminal: Powershell , WSL2
+
+Terminal Emulator: Windows Terminal Preview
+
+Fetch: Fastfetch , neofetch
+
+Editor: cursor , VS Code
+
+Explorer theme : System Transparency By Prisoner 7
+
+Package Managers: Scoop, Choco
+```
+
 ## 1. 윈도우 태스크바 및 우클릭 윈도우 10처럼 설정
 
 [윈도우10 & 11 작업표시줄 꾸미기](https://www.notion.so/10-11-a98a69b61ead4832a283c426cb51d7cf?pvs=21) 
