@@ -28,28 +28,28 @@ gaps:
   inner_gap: "10px"
 
   # Gap between windows and the screen edge.
-  outer_gap: "10px"
+  outer_gap: "8px"
 
 # Highlight active/inactive windows with a colored border.
 # ** Exclusive to Windows 11 due to API limitations.
 focus_borders:
   active:
     enabled: true
-    color: "#ffff00"
+    color: "#00ff00"
 
   inactive:
     enabled: false
     color: "#ff0000"
 
 bar:
-  height: "30px"
+  height: "16px"
   position: "top"
   opacity: 1.0
   background: "#20242cc4"
   foreground: "#ffffff"
   font_family: "Segoe UI"
-  font_size: "13px"
-  padding: "4px 6px"
+  font_size: "10px"
+  padding: "0px 8px"
   offset_x: "0"
   offset_y: "0"
   border_radius: "0"
@@ -139,13 +139,13 @@ binding_modes:
 keybindings:
   # Shift focus in a given direction.
   - command: "focus left"
-    bindings: ["Alt+LWin+J", "Alt+LWin+Left" , "LControlKey+LWin+J"]
+    bindings: ["Alt+LWin+J", "Alt+LWin+Left" , "LControlKey+LWin+J" , "LWin+J", "LWin+Left" ]
   - command: "focus right"
-    bindings: ["Alt+LWin+L", "Alt+LWin+Right" , "LControlKey+LWin+L"]
+    bindings: ["Alt+LWin+L", "Alt+LWin+Right" , "LControlKey+LWin+L" , "LWin+L", "LWin+Right" ]
   - command: "focus up"
-    bindings: ["Alt+LWin+I", "Alt+LWin+Up" , "LControlKey+LWin+I"]
+    bindings: ["Alt+LWin+I", "Alt+LWin+Up" , "LControlKey+LWin+I" , "LWin+I", "LWin+Up" ]
   - command: "focus down"
-    bindings: ["Alt+LWin+K", "Alt+LWin+Down" , "LControlKey+LWin+K"]
+    bindings: ["Alt+LWin+K", "Alt+LWin+Down" , "LControlKey+LWin+K" , "LWin+K", "LWin+Down" ]
 
   # Move focused window in a given direction.
   - command: "move left"
@@ -158,14 +158,16 @@ keybindings:
     bindings: ["Alt+LWin+Shift+K", "Alt+LWin+Shift+Down" , "LControlKey+LWin+Shift+K"]
 
   # Resize focused window by a percentage or pixel amount.
-  - command: "resize width -2%"
-    binding: "Alt+LWin+U"
   - command: "resize width +2%"
     binding: "Alt+LWin+O"
+  - command: "resize width -2%"
+    binding: "Alt+LWin+U"
   - command: "resize height +2%"
-    binding: "Alt+LWin+P"
+    binding: "Alt+LWin+Shift+U"
   - command: "resize height -2%"
-    binding: "Alt+LWin+Y"
+    binding: "Alt+LWin+Shift+O"
+
+
 
   # As an alternative to the resize keybindings above, resize mode enables resizing via
   # HJKL or arrow keys. The binding mode is defined above with the name "resize".
@@ -173,8 +175,8 @@ keybindings:
     binding: "Alt+LWin+R"
 
   # Change tiling direction. This determines where new tiling windows will be inserted.
-  - command: "tiling direction toggle"
-    binding: "Alt+LWin+V"
+  - command: "tiling direction toggle"  
+    bindings: ["Alt+LWin+V"]
 
   # Change focus between floating / tiling windows.
   - command: "focus mode toggle"
@@ -206,42 +208,43 @@ keybindings:
   - command: "reload config"
     binding: "Alt+Shift+R"
 
-  # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
+  # Launch CMD terminal alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
   #
   # - command: "exec cmd"
-  - command: "exec %ProgramFiles%/WindowsApps/Microsoft.WindowsTerminalPreview_1.20.10303.0_x64__8wekyb3d8bbwe/WindowsTerminal.exe"
-    binding: "Alt+LWin+Enter"
+  # C:\Program Files\WindowsApps\Microsoft.WindowsTerminalPreview_1.20.10572.0_x64__8wekyb3d8bbwe
+  - command: "exec %ProgramFiles%/WindowsApps/Microsoft.WindowsTerminalPreview_1.20.10572.0_x64__8wekyb3d8bbwe/WindowsTerminal.exe"
+    bindings: ["Alt+LWin+Enter"]
 
   # Focus the workspace that last had focus.
   - command: "focus workspace recent"
-    binding: "Alt+LWin+Y"
+    bindings: ["Alt+LWin+LControlKey+R"]
 
   # Focus the next/previous workspace defined in `workspaces` config.
   - command: "focus workspace next"
-    binding: "LWin+H"
+    bindings: ["LWin+LControlKey+H","Alt+Shift+LWin+H","Alt+LWin+Y"]
   - command: "focus workspace prev"
-    binding: "LWin+G"
+    bindings: ["LWin+LControlKey+G","Alt+Shift+LWin+G","Alt+LWin+T"]
 
   # Change focus to a workspace defined in `workspaces` config.
   - command: "focus workspace 1"
-    binding: "Alt+LWin+1"
+    bindings: ["Alt+LWin+1" , "LWin+1"]
   - command: "focus workspace 2"
-    binding: "Alt+LWin+2"
+    bindings: ["Alt+LWin+2" , "LWin+2"]
   - command: "focus workspace 3"
-    binding: "Alt+LWin+3"
+    bindings: ["Alt+LWin+3" , "LWin+3"]
   - command: "focus workspace 4"
-    binding: "Alt+LWin+4"
+    bindings: ["Alt+LWin+4" , "LWin+4"]
   - command: "focus workspace 5"
-    binding: "Alt+LWin+5"
+    bindings: ["Alt+LWin+5" , "LWin+5"]
   - command: "focus workspace 6"
-    binding: "Alt+LWin+6"
+    bindings: ["Alt+LWin+6" , "LWin+6"]
   - command: "focus workspace 7"
-    binding: "Alt+LWin+7"
+    bindings: ["Alt+LWin+7" , "LWin+7"]
   - command: "focus workspace 8"
-    binding: "Alt+LWin+8"
+    bindings: ["Alt+LWin+8" , "LWin+8"]
   - command: "focus workspace 9"
-    binding: "Alt+LWin+9"
+    bindings: ["Alt+LWin+9" , "LWin+9"]
 
   # Move focused workspace to a monitor in a given direction.
   - command: "move workspace left"
@@ -255,20 +258,20 @@ keybindings:
 
   # Move focused window to a workspace defined in `workspaces` config.
   - commands: ["move to workspace 1", "focus workspace 1"]
-    binding: "Alt+LWin+Shift+1"
+    bindings: ["Alt+LWin+Shift+1" , "LWin+Shift+1"]
   - commands: ["move to workspace 2", "focus workspace 2"]
-    binding: "Alt+LWin+Shift+2"
+    bindings: ["Alt+LWin+Shift+2" , "LWin+Shift+2"]
   - commands: ["move to workspace 3", "focus workspace 3"]
-    binding: "Alt+LWin+Shift+3"
+    bindings: ["Alt+LWin+Shift+3" , "LWin+Shift+3"]
   - commands: ["move to workspace 4", "focus workspace 4"]
-    binding: "Alt+LWin+Shift+4"
+    bindings: ["Alt+LWin+Shift+4" , "LWin+Shift+5"]
   - commands: ["move to workspace 5", "focus workspace 5"]
-    binding: "Alt+LWin+Shift+5"
+    bindings: ["Alt+LWin+Shift+5" , "LWin+Shift+6"]
   - commands: ["move to workspace 6", "focus workspace 6"]
-    binding: "Alt+LWin+Shift+6"
+    bindings: ["Alt+LWin+Shift+6" , "LWin+Shift+6"]
   - commands: ["move to workspace 7", "focus workspace 7"]
-    binding: "Alt+LWin+Shift+7"
+    bindings: ["Alt+LWin+Shift+7" , "LWin+Shift+7"]
   - commands: ["move to workspace 8", "focus workspace 8"]
-    binding: "Alt+LWin+Shift+8"
+    bindings: ["Alt+LWin+Shift+8" , "LWin+Shift+8"]
   - commands: ["move to workspace 9", "focus workspace 9"]
-    bindings: ["Alt+LWin+Shift+9"]
+    bindings: ["Alt+LWin+Shift+9" , "LWin+Shift+9"]
