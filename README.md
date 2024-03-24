@@ -5,7 +5,8 @@ by glazeWM , PowerToys , WSL2 , etc ...
 
 # 윈도우 개발 환경
 
-![스크린샷 2024-02-19 190843](https://github.com/Cybecho/Windows_Setting/assets/42949995/b8539340-05f5-4e61-be68-fb17e656a127)
+![스크린샷 2024-03-24 120524 (중형)](https://github.com/Cybecho/Windows_Setting/assets/42949995/28f398e0-af26-4b3a-b45c-e73f6912fc50)
+
 
 ```
 
@@ -49,6 +50,8 @@ Package Managers: Scoop, Choco
 
 [윈도우10 & 11 작업표시줄 꾸미기](https://www.notion.so/10-11-a98a69b61ead4832a283c426cb51d7cf?pvs=21) 
 
+[RoundedTB - 윈도우 작업표시줄 ](https://www.notion.so/RoundedTB-ef0a2195da244953b37878ce114b857c?pvs=21) 
+
 ## 2. 핫코너
 
 [WinXConers - 윈도우에서 핫코너 사용](https://www.notion.so/WinXConers-9adbbb59ed964dd7b95e465395c899f9?pvs=21) 
@@ -65,7 +68,7 @@ Package Managers: Scoop, Choco
 
 ## 5. PowerToys (Custom HotKey)
 
-> **[`(키보드 맵핑 .json 세팅 파일)`](https://github.com/Cybecho/Windows_Setting/blob/main/default.json)**
+> **[(키보드 맵핑 `.json` 세팅 파일)](https://github.com/Cybecho/Windows_Setting/blob/main/default.json)**
 > 
 
 https://github.com/Cybecho/PowerToys_Keyboard_Addon
@@ -82,7 +85,7 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 ## 7. GlazeWM
 
-> **[`(config파일 )`](https://github.com/Cybecho/Windows_Setting/blob/main/config.yaml)**
+> **[(`config`파일 )](https://github.com/Cybecho/Windows_Setting/blob/main/config.yaml)**
 > 
 
 [GlazeWM 윈도우용 i3](https://www.notion.so/GlazeWM-i3-e197a8a316584a1c9fbe25f3c16f1317?pvs=21) 
@@ -103,11 +106,17 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 [VS Code C++ 세팅](https://www.notion.so/VS-Code-C-877b6f3e0e2f4285bc5dc174ff5e5110?pvs=21) 
 
-### 9-2 . 에디터 커스터마이즈 - Visual Studio
-
 [Visual Studio 테마를 바꿔봐요](https://www.notion.so/Visual-Studio-9255c6c2665a45f09b1230fa380b2b68?pvs=21) 
 
 [Visual Studio Extension](https://www.notion.so/Visual-Studio-Extension-c7e398ff28864baf98411efe858b3a07?pvs=21) 
+
+### 9-2 . 터미널 커스터마이즈
+
+[윈도우 터미널 레트로 글로우 효과](https://www.notion.so/f8e5ce5861ba481dafe8312f1dfd58f0?pvs=21) 
+
+[oh my zsh - 플러그인 (자동완성,구문강조 등)](https://www.notion.so/oh-my-zsh-88066d6294b445b5909da248df0b4e91?pvs=21) 
+
+[oh my posh 윈도우 터미널 커스터마이징](https://www.notion.so/oh-my-posh-4537e5ec748a4e2590aa05849af7338d?pvs=21) 
 
 ### 9-3 . 윈도우 시스템 세팅
 
@@ -117,7 +126,11 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 [윈도우 게임바 완전 제거](https://www.notion.so/a9053087eff24e22aaa928f62f00c140?pvs=21) 
 
+[읜도우 FanControl을 통해 팬속 조절](https://www.notion.so/FanControl-47684b53fd0e4d26b7dce60105df33f5?pvs=21) 
+
 ### 9-4 . 윈도우 레지스트리 세팅
+
+[GlazeWM 을 활용한 win키 비활성화](https://www.notion.so/GlazeWM-win-66df8974fefc40b8af4e229dea4d3cf2?pvs=21) 
 
 [윈도우 win + 특정 키 비활성화 하기](https://www.notion.so/win-8cc34530c5bc4147911d0ce6b54b2822?pvs=21)
 
@@ -129,4 +142,12 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 [C드라이브 관리자권한 끄기](https://www.notion.so/C-215c36943dee4a40af5fcac1d481c903?pvs=21) 
 
-[레지스트리 적용 팝업 끄기](https://www.notion.so/10b61f18a52541ca934e4b4d393f0aad?pvs=21)
+[레지스트리 적용 팝업 끄기](https://www.notion.so/10b61f18a52541ca934e4b4d393f0aad?pvs=21) 
+
+### 9-5 . 그 외 입출력장치 컨트롤 커스터마이징
+
+[윈도우 키보드로 마우스 컨트롤](https://www.notion.so/f05203f959064cd78bee6c42b5edebf0?pvs=21)
+
+[윈도우 트랙패드 제스처 사용자 설정](https://www.notion.so/f46d1b9de90d4bb6a28ae896429c94f4?pvs=21)
+
+[윈도우 마우스 커서 MAC처럼 변경](https://www.notion.so/MAC-82c31900393a43f7a172aa9d3bfa0644?pvs=21)
