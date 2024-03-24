@@ -1,6 +1,12 @@
-lt+A를 Ctrl+A로 리맵핑
+;;;;기본 단축키;;;;
+;lt+A를 Ctrl+A로 리맵핑
 !a::
 Send, ^a
+return
+
+; Alt+Z를 Ctrl+Z로 리맵핑
+!z::
+Send, ^z
 return
 
 ; Alt+C를 Ctrl+C로 리맵핑
@@ -11,4 +17,25 @@ return
 ; Alt+V를 Ctrl+V로 리맵핑
 !v::
 Send, ^v
+return
+
+; Alt+T를 Ctrl+T로 리맵핑
+!t::
+Send, ^t
+return
+
+; Alt+B를 Ctrl+B로 리맵핑
+!b::
+Send, ^b
+return
+
+;;;; 탭 전환 ;;;;
+; Alt+Win+G를 Ctrl+Shift+Tab으로 리맵핑
+<!g::
+Send, +^{Tab}
+return
+
+; Alt+Win+H를 Ctrl+Tab으로 리맵핑
+<!h::
+Send, ^{Tab}
 return
