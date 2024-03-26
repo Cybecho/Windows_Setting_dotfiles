@@ -102,22 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Conda Setup
-# >>> conda initialize >>>
- # !! Contents within this block are managed by 'conda init' !!
- __conda_setup="$('/root/anaconda3/bin/conda' 'shell.zsh' 'hook'     2> /dev/null)"
- if [ $? -eq 0 ]; then
-     eval "$__conda_setup"
- else
-     if [ -f "/root/anaconda3/etc/profile.d/conda.sh" ]; then
-         . "/root/anaconda3/etc/profile.d/conda.sh"
-     else
-         export PATH="/root/anaconda3/bin:$PATH"
-     fi
- fi
- unset __conda_setup
- # <<< conda initialize <<<
-
 alias python=python3.11
 alias win='cd ~/../mnt/c/SBU'
 alias lin='cd ~'
@@ -125,7 +109,6 @@ alias aws='ssh aws'
 alias acg='/mnt/c/SBU/ACG/ACG'
 alias univ_git='/mnt/c/SBU/Univ_catholic/'
 alias univ_icloud='/mnt/c/Users/thqud/iCloudDrive/가톨릭대학교(iCloud)/'
-
 
 neofetch
 source /root/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
