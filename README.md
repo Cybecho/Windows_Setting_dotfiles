@@ -151,3 +151,6 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 [윈도우 트랙패드 제스처 사용자 설정](https://www.notion.so/f46d1b9de90d4bb6a28ae896429c94f4?pvs=21)
 
 [윈도우 마우스 커서 MAC처럼 변경](https://www.notion.so/MAC-82c31900393a43f7a172aa9d3bfa0644?pvs=21)
+
+# Bug
+- 2024.03.26 현재 AutoHotKey 와 PowerToys 에서 alt <--> ctrl swap 단축키의 중복이 존재하여 메모리 낭비 문제가 존재함
