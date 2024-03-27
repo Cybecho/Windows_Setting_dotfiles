@@ -74,15 +74,28 @@ return
 Send, ^+
 return
 
-
-;;;; 탭 전환 ;;;;
-; Alt+Win+G를 Ctrl+Shift+Tab으로 리맵핑
-<!g::
-Send, +^{Tab}
+; Alt + Shift + V를 Ctrl + Shift + V로 변경
+!+v::
+Send, ^+v
 return
 
-; Alt+Win+H를 Ctrl+Tab으로 리맵핑
-<!h::
+; Alt + Shift + Z를 Ctrl + Shift + Z로 변경
+!+z::
+Send, ^+z
+return
+
+; Alt + Shift + E를 Ctrl + Shift + E로 변경
+!+e::
+Send, ^+e
+return
+
+; Win + Alt + G를 Ctrl + Shift + Tab으로 변경
+#!g::
+Send, ^+{Tab}
+return
+
+; Win + Alt + H를 Ctrl + Tab으로 변경
+#!h::
 Send, ^{Tab}
 return
 
