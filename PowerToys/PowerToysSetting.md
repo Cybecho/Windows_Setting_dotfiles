@@ -6,7 +6,7 @@
 1. 원하는 버전의 디렉토리에 setting.json을 아래 디렉토리에 넣어주세요
 2. 그 후 PowerToys-설정-일반-백업 메뉴에서 복원을 눌러주세요
 
-``` /mnt/c/Users/thqud/AppData/Local/Microsoft/PowerToys/ ```
+``` /mnt/c/Users/<USERNAME>/AppData/Local/Microsoft/PowerToys/ ```
 
 
 ```
