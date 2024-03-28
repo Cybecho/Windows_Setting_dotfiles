@@ -89,17 +89,6 @@ return
 Send, ^+e
 return
 
-; Win + Alt + G를 Ctrl + Shift + Tab으로 변경
-#!g::
-Send, ^+{Tab}
-return
-
-; Win + Alt + H를 Ctrl + Tab으로 변경
-#!h::
-Send, ^{Tab}
-return
-
-
 ;;;; notion 전용 ;;;;
 ; Alt+Win+M 또는 Ctrl+M을 Ctrl+Alt+M으로 리맵핑
 <!m::
