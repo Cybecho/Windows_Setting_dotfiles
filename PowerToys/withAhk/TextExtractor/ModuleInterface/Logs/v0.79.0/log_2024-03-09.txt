@@ -1,0 +1,36 @@
+[2024-03-09 00:13:08.012461] [p-4172] [t-22744] [info] TextExtractor logger is initialized
+[2024-03-09 00:13:08.012657] [p-4172] [t-22744] [info] TextExtractor settings are empty
+[2024-03-09 00:13:08.012672] [p-4172] [t-22744] [info] TextExtractor is going to use default shortcut
+[2024-03-09 00:14:12.880529] [p-4172] [t-22744] [trace] TextExtractor::destroy()
+[2024-03-09 00:14:12.932012] [p-24960] [t-29716] [info] TextExtractor logger is initialized
+[2024-03-09 00:18:25.573709] [p-14300] [t-12232] [info] TextExtractor logger is initialized
+[2024-03-09 08:39:36.939882] [p-13840] [t-13844] [info] TextExtractor logger is initialized
+[2024-03-09 08:48:57.441326] [p-13840] [t-13844] [trace] TextExtractor::destroy()
+[2024-03-09 08:48:57.499716] [p-25900] [t-13236] [info] TextExtractor logger is initialized
+[2024-03-09 08:48:57.687773] [p-25900] [t-13236] [trace] TextExtractor::enable()
+[2024-03-09 08:48:57.687792] [p-25900] [t-13236] [trace] Starting TextExtractor process
+[2024-03-09 08:48:57.698198] [p-25900] [t-13236] [trace] Successfully started the TextExtractor process
+[2024-03-09 10:05:52.697505] [p-6084] [t-6244] [info] TextExtractor logger is initialized
+[2024-03-09 10:05:53.716062] [p-6084] [t-6244] [trace] TextExtractor::enable()
+[2024-03-09 10:05:53.716441] [p-6084] [t-6244] [trace] Starting TextExtractor process
+[2024-03-09 10:05:53.780011] [p-6084] [t-6244] [trace] Successfully started the TextExtractor process
+[2024-03-09 10:14:45.752857] [p-13192] [t-13196] [info] TextExtractor logger is initialized
+[2024-03-09 10:14:49.263298] [p-13192] [t-13196] [trace] TextExtractor::enable()
+[2024-03-09 10:14:49.263371] [p-13192] [t-13196] [trace] Starting TextExtractor process
+[2024-03-09 10:14:49.274271] [p-13192] [t-13196] [trace] Successfully started the TextExtractor process
+[2024-03-09 12:19:21.582269] [p-13128] [t-13208] [info] TextExtractor logger is initialized
+[2024-03-09 12:19:23.503277] [p-13128] [t-13208] [trace] TextExtractor::enable()
+[2024-03-09 12:19:23.533487] [p-13128] [t-13208] [trace] Starting TextExtractor process
+[2024-03-09 12:19:23.836844] [p-13128] [t-13208] [trace] Successfully started the TextExtractor process
+[2024-03-09 16:45:56.751858] [p-13716] [t-13720] [info] TextExtractor logger is initialized
+[2024-03-09 16:45:57.275970] [p-13716] [t-13720] [trace] TextExtractor::enable()
+[2024-03-09 16:45:57.276245] [p-13716] [t-13720] [trace] Starting TextExtractor process
+[2024-03-09 16:45:57.418567] [p-13716] [t-13720] [trace] Successfully started the TextExtractor process
+[2024-03-09 16:58:41.419128] [p-13572] [t-13576] [info] TextExtractor logger is initialized
+[2024-03-09 16:58:44.359564] [p-13572] [t-13576] [trace] TextExtractor::enable()
+[2024-03-09 16:58:44.373177] [p-13572] [t-13576] [trace] Starting TextExtractor process
+[2024-03-09 16:58:44.505466] [p-13572] [t-13576] [trace] Successfully started the TextExtractor process
+[2024-03-09 23:11:05.502055] [p-14156] [t-14160] [info] TextExtractor logger is initialized
+[2024-03-09 23:11:06.769706] [p-14156] [t-14160] [trace] TextExtractor::enable()
+[2024-03-09 23:11:06.769989] [p-14156] [t-14160] [trace] Starting TextExtractor process
+[2024-03-09 23:11:06.868161] [p-14156] [t-14160] [trace] Successfully started the TextExtractor process

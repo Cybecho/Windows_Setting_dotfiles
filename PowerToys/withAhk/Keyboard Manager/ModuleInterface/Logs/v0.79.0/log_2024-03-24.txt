@@ -1,0 +1,6 @@
+[2024-03-24 11:22:22.858596] [p-13356] [t-13328] [info] keyboard-manager logger is initialized
+[2024-03-24 12:24:59.297069] [p-33736] [t-31464] [info] keyboard-manager logger is initialized
+[2024-03-24 12:56:57.800417] [p-15308] [t-15312] [info] keyboard-manager logger is initialized
+[2024-03-24 13:14:10.890234] [p-12516] [t-12520] [info] keyboard-manager logger is initialized
+[2024-03-24 13:27:21.225124] [p-13000] [t-12996] [info] keyboard-manager logger is initialized
+[2024-03-24 16:14:54.851613] [p-12592] [t-12540] [info] keyboard-manager logger is initialized

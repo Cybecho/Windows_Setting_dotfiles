@@ -1,0 +1,18 @@
+[2024-03-27 06:54:59.416411] [p-15776] [t-15780] [info] keyboard-manager logger is initialized
+[2024-03-27 06:54:59.509630] [p-15776] [t-15780] [trace] SettingsHelper::LoadSettings()
+[2024-03-27 07:44:30.610307] [p-15776] [t-15780] [trace] ChordKeyboardHandler:key_count:6
+[2024-03-27 07:44:34.184439] [p-15776] [t-15780] [trace] ChordKeyboardHandler:key_count:6
+[2024-03-27 07:44:34.881749] [p-15776] [t-15780] [trace] ChordKeyboardHandler:key_count:6
+[2024-03-27 07:50:32.291605] [p-15776] [t-15780] [trace] ChordKeyboardHandler:key_count:1
+[2024-03-27 08:02:11.772806] [p-15776] [t-15780] [trace] ChordKeyboardHandler:key_count:4
+[2024-03-27 08:03:14.204219] [p-15776] [t-15780] [trace] ChordKeyboardHandler:key_count:1
+[2024-03-27 08:04:13.629821] [p-15776] [t-15780] [trace] ChordKeyboardHandler:key_count:1
+[2024-03-27 08:04:32.714390] [p-15776] [t-15780] [trace] ChordKeyboardHandler:key_count:5
+[2024-03-27 08:07:46.175972] [p-15776] [t-15780] [trace] ChordKeyboardHandler:key_count:7
+[2024-03-27 08:08:59.161819] [p-15776] [t-15780] [trace] ChordKeyboardHandler:key_count:5
+[2024-03-27 09:01:53.056307] [p-12424] [t-12428] [info] keyboard-manager logger is initialized
+[2024-03-27 09:01:53.093631] [p-12424] [t-12428] [trace] SettingsHelper::LoadSettings()
+[2024-03-27 09:30:42.811411] [p-12424] [t-12428] [trace] ChordKeyboardHandler:key_count:7
+[2024-03-27 09:30:44.990823] [p-12424] [t-12428] [trace] ChordKeyboardHandler:key_count:7
+[2024-03-27 09:30:46.438139] [p-12424] [t-12428] [trace] ChordKeyboardHandler:key_count:7
+[2024-03-27 09:31:33.037212] [p-12424] [t-12428] [trace] ChordKeyboardHandler:key_count:6

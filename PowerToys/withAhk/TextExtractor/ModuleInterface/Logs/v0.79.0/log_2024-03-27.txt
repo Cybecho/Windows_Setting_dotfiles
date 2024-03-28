@@ -1,0 +1,8 @@
+[2024-03-27 06:54:58.088773] [p-14428] [t-14432] [info] TextExtractor logger is initialized
+[2024-03-27 06:54:59.275428] [p-14428] [t-14432] [trace] TextExtractor::enable()
+[2024-03-27 06:54:59.275485] [p-14428] [t-14432] [trace] Starting TextExtractor process
+[2024-03-27 06:54:59.515600] [p-14428] [t-14432] [trace] Successfully started the TextExtractor process
+[2024-03-27 09:01:52.582581] [p-10232] [t-11252] [info] TextExtractor logger is initialized
+[2024-03-27 09:02:02.632812] [p-10232] [t-11252] [trace] TextExtractor::enable()
+[2024-03-27 09:02:02.632862] [p-10232] [t-11252] [trace] Starting TextExtractor process
+[2024-03-27 09:02:02.702952] [p-10232] [t-11252] [trace] Successfully started the TextExtractor process

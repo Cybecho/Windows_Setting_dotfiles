@@ -1,0 +1,4 @@
+[06:55:00.3537756] [Info] App::Application_Startup
+    TextExtractor started from the PowerToys Runner. Runner pid=14428
+[09:02:02.9580684] [Info] App::Application_Startup
+    TextExtractor started from the PowerToys Runner. Runner pid=10232

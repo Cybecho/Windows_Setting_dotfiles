@@ -1,0 +1,1 @@
+[2024-03-18 20:53:15.349362] [p-14272] [t-14284] [info] keyboard-manager logger is initialized

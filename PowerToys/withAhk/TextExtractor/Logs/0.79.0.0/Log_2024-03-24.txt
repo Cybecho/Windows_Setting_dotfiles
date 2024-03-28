@@ -1,0 +1,14 @@
+[11:22:26.6101669] [Info] App::Application_Startup
+    TextExtractor started from the PowerToys Runner. Runner pid=13356
+[12:24:33.5520230] [Info] App::<Application_Startup>b__10_0
+    PowerToys Runner exited. Exiting TextExtractor
+[12:24:59.8096557] [Info] App::Application_Startup
+    TextExtractor started from the PowerToys Runner. Runner pid=33736
+[12:51:43.0904198] [Info] App::<Application_Startup>b__10_0
+    PowerToys Runner exited. Exiting TextExtractor
+[12:56:59.9900426] [Info] App::Application_Startup
+    TextExtractor started from the PowerToys Runner. Runner pid=15308
+[13:14:15.3577886] [Info] App::Application_Startup
+    TextExtractor started from the PowerToys Runner. Runner pid=12516
+[13:27:24.4235573] [Info] App::Application_Startup
+    TextExtractor started from the PowerToys Runner. Runner pid=13000
