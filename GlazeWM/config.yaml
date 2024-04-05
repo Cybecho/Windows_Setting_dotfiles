@@ -90,8 +90,16 @@ bar:
 
 workspaces:
   - name: "1"
+    display_name: "Work"
+    bind_to_monitor: 1
+    keep_alive: true # 비어있어도 창을 유지합니다
   - name: "2"
+    display_name: "Code"
+    bind_to_monitor: 5
+    keep_alive: true # 비어있어도 창을 유지합니다
   - name: "3"
+    display_name: "Util"
+    keep_alive: true # 비어있어도 창을 유지합니다
   - name: "4"
   - name: "5"
   - name: "6"
@@ -119,17 +127,28 @@ window_rules:
   - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "steam"
 
+  # Command to run. Use `commands` to specify an array of commands to run in sequence.
+
+  - command: "move to workspace 1"
+    match_process_name: "chrome"
+    match_process_name: "Notion"
+  - command: "move to workspace 2"
+    match_process_name: "Code"
+  - command: "move to workspace 3"
+    match_process_name: "DeepL"
+    match_process_name: "KakaoTalk"
+
 binding_modes:
   - name: "resize"
     keybindings:
       # Resize focused window by a percentage or pixel amount.
-      - command: "resize width -2%"
+      - command: "resize width -4%"
         bindings: ["H", "Left"]
-      - command: "resize width +2%"
+      - command: "resize width +4%"
         bindings: ["L", "Right"]
-      - command: "resize height +2%"
+      - command: "resize height +4%"
         bindings: ["K", "Up"]
-      - command: "resize height -2%"
+      - command: "resize height -4%"
         bindings: ["J", "Down"]
       # Press enter/escape to return to default keybindings.
       - command: "binding mode none"
@@ -183,13 +202,13 @@ keybindings:
       ["Alt+LWin+Shift+K", "Alt+LWin+Shift+Down", "LControlKey+LWin+Shift+K"]
 
   # Resize focused window by a percentage or pixel amount.
-  - command: "resize width +2%"
+  - command: "resize width +4%"
     binding: "Alt+LWin+O"
-  - command: "resize width -2%"
+  - command: "resize width -4%"
     binding: "Alt+LWin+U"
-  - command: "resize height +2%"
+  - command: "resize height +4%"
     binding: "Alt+LWin+Shift+U"
-  - command: "resize height -2%"
+  - command: "resize height -4%"
     binding: "Alt+LWin+Shift+O"
 
   # As an alternative to the resize keybindings above, resize mode enables resizing via
@@ -235,8 +254,8 @@ keybindings:
   # to start Windows Terminal and Git Bash respectively.
   #
   # - command: "exec cmd"
-  # C:\Program Files\WindowsApps\Microsoft.WindowsTerminalPreview_1.20.10572.0_x64__8wekyb3d8bbwe
-  - command: "exec %ProgramFiles%/WindowsApps/Microsoft.WindowsTerminalPreview_1.20.10572.0_x64__8wekyb3d8bbwe/WindowsTerminal.exe"
+  #~ C:\Program Files\WindowsApps\Microsoft.WindowsTerminalPreview_1.20.10572.0_x64__8wekyb3d8bbwe
+  - command: "exec %ProgramFiles%/WindowsApps/Microsoft.WindowsTerminalPreview_1.20.10822.0_x64__8wekyb3d8bbwe/WindowsTerminal.exe"
     bindings: ["Alt+LWin+Enter"]
 
   # Focus the workspace that last had focus.
