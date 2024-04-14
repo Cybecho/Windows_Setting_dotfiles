@@ -27,8 +27,6 @@ I'll leave a link to my git repository for the powerToys and GlazeWM configurati
 ```
 
 ```
-PC : Thinkpad X1 Nano Gen 1
-
 WM: GlazeWM
 
 OS: Windows 11 Pro
