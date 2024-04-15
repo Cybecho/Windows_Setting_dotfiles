@@ -76,6 +76,9 @@ bar:
       padding: "0 8px"
 
     - type: "battery"
+      draining: "{battery_level}% 🔋 remaining"
+      power_saver: "{battery_level}% 🔁 (power saver)"
+      charging: "{battery_level}% ⚡ (charging)"
       margin: "0 4px"
       padding: "0 8px"
 
@@ -95,12 +98,16 @@ workspaces:
     keep_alive: true # 비어있어도 창을 유지합니다
   - name: "2"
     display_name: "Code"
-    bind_to_monitor: 5
+    bind_to_monitor: 1
     keep_alive: true # 비어있어도 창을 유지합니다
   - name: "3"
     display_name: "Util"
+    bind_to_monitor: 6
     keep_alive: true # 비어있어도 창을 유지합니다
   - name: "4"
+    display_name: "Music"
+    bind_to_monitor: 6
+    keep_alive: true # 비어있어도 창을 유지합니다
   - name: "5"
   - name: "6"
   - name: "7"
@@ -134,9 +141,18 @@ window_rules:
     match_process_name: "Notion"
   - command: "move to workspace 2"
     match_process_name: "Code"
+    match_process_name: "Cursor"
   - command: "move to workspace 3"
     match_process_name: "DeepL"
     match_process_name: "KakaoTalk"
+    match_process_name: "GitHubDesktop"
+    match_process_name: "Discord"
+    match_process_name: "SystemSettings"
+    match_process_name: "설정"
+    match_process_name: "RoundedTB"
+  - command: "move to workspace 4"
+    match_process_name: "Spotify"
+    match_process_name: "Microsoft Edge"
 
 binding_modes:
   - name: "resize"
@@ -255,7 +271,7 @@ keybindings:
   #
   # - command: "exec cmd"
   #~ C:\Program Files\WindowsApps\Microsoft.WindowsTerminalPreview_1.20.10572.0_x64__8wekyb3d8bbwe
-  - command: "exec %ProgramFiles%/WindowsApps/Microsoft.WindowsTerminalPreview_1.20.10822.0_x64__8wekyb3d8bbwe/WindowsTerminal.exe"
+  - command: "exec cmd"
     bindings: ["Alt+LWin+Enter"]
 
   # Focus the workspace that last had focus.
