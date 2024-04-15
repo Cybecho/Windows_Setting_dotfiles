@@ -5,7 +5,7 @@ by glazeWM , PowerToys , WSL2 , etc ...
 
 # 윈도우 개발 환경
 
-![스크린샷 2024-03-24 120524 (중형)](https://github.com/Cybecho/Windows_Setting/assets/42949995/28f398e0-af26-4b3a-b45c-e73f6912fc50)
+![스크린샷 2024-04-15 104030 (중형)](https://github.com/Cybecho/Windows_Setting/assets/42949995/bce574ab-86de-4151-8d16-3b3fa319f718)
 ![스크린샷 2024-03-25 102828 (중형)](https://github.com/Cybecho/Windows_Setting/assets/42949995/4cef14c5-aba0-4892-964b-e44eb3a1f734)
 
 ```
