@@ -91,9 +91,9 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 ## 8. Make Windows UI translucent
 
-[윈도우 터미널 투명하게](https://www.notion.so/0b98ec4d25164c4485b1962094710534?pvs=21) 
+[Making the Windows Terminal Transparent](https://www.notion.so/0b98ec4d25164c4485b1962094710534?pvs=21) 
 
-[윈도우 탐색기 투명하게](https://www.notion.so/f47854d2452b4efdb0937bbbaa8f0232?pvs=21) 
+[Making windows transparent](https://www.notion.so/f47854d2452b4efdb0937bbbaa8f0232?pvs=21) 
 
 ## 9. Other settings
 
@@ -105,7 +105,7 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 [VS Code C++ settings](https://www.notion.so/VS-Code-C-877b6f3e0e2f4285bc5dc174ff5e5110?pvs=21) 
 
-[Visual Studio 테마를 바꿔봐요](https://www.notion.so/Visual-Studio-9255c6c2665a45f09b1230fa380b2b68?pvs=21) 
+[Visual Studio change Theme](https://www.notion.so/Visual-Studio-9255c6c2665a45f09b1230fa380b2b68?pvs=21) 
 
 [Visual Studio Extension](https://www.notion.so/Visual-Studio-Extension-c7e398ff28864baf98411efe858b3a07?pvs=21) 
 
@@ -139,7 +139,7 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 [Windows Ctrl ←→ CapsLock](https://www.notion.so/Ctrl-CapsLock-7db001a3cb4248009f9440327f19552e?pvs=21) 
 
-[C드라이브 관리자권한 끄기](https://www.notion.so/C-215c36943dee4a40af5fcac1d481c903?pvs=21) 
+[Turn off C drive administrator privileges](https://www.notion.so/C-215c36943dee4a40af5fcac1d481c903?pvs=21) 
 
 [Turn off registry application pop-ups](https://www.notion.so/10b61f18a52541ca934e4b4d393f0aad?pvs=21) 
 
@@ -155,7 +155,7 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 [Rainmeter - Add a MAC-style widget to Windows](https://www.notion.so/Rainmeter-MAC-4032f7a00bb14c29b86e8ded6670c405?pvs=21) 
 
-[Rainmeter - Add a Windows desktop date widget **Rainmeter**](https://www.notion.so/Rainmeter-1bc9979deb7348c5b2ea9f809e0eb9f1?pvs=21)
+[Rainmeter - Add a Windows desktop date widget Rainmeter](https://www.notion.so/Rainmeter-1bc9979deb7348c5b2ea9f809e0eb9f1?pvs=21)
 
 # Bug
 - As of 2024.03.26, duplicate alt <--> ctrl swap shortcut exists in AutoHotKey and PowerToys, wasting memory
