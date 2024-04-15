@@ -142,13 +142,19 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 [레지스트리 적용 팝업 끄기](https://www.notion.so/10b61f18a52541ca934e4b4d393f0aad?pvs=21) 
 
-### 9-5 . 그 외 입출력장치 컨트롤 커스터마이징
+### 9-5 . 입출력장치 컨트롤 커스터마이징
 
 [윈도우 키보드로 마우스 컨트롤](https://www.notion.so/f05203f959064cd78bee6c42b5edebf0?pvs=21)
 
 [윈도우 트랙패드 제스처 사용자 설정](https://www.notion.so/f46d1b9de90d4bb6a28ae896429c94f4?pvs=21)
 
-[윈도우 마우스 커서 MAC처럼 변경](https://www.notion.so/MAC-82c31900393a43f7a172aa9d3bfa0644?pvs=21)
+[윈도우 마우스 커서 MAC처럼 변경](https://www.notion.so/MAC-82c31900393a43f7a172aa9d3bfa0644?pvs=21) 
+
+### 9-6 . Ricing
+
+[Rainmeter - 윈도우에 MAC 스타일 위젯 추가하기](https://www.notion.so/Rainmeter-MAC-4032f7a00bb14c29b86e8ded6670c405?pvs=21) 
+
+[윈도우 바탕화면 날짜 위젯 추가 **Rainmeter**](https://www.notion.so/Rainmeter-1bc9979deb7348c5b2ea9f809e0eb9f1?pvs=21)
 
 # Bug
 - 2024.03.26 현재 AutoHotKey 와 PowerToys 에서 alt <--> ctrl swap 단축키의 중복이 존재하여 메모리 낭비 문제가 존재함
