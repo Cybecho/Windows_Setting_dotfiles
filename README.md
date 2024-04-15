@@ -155,7 +155,7 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 [Rainmeter - Add a MAC-style widget to Windows](https://www.notion.so/Rainmeter-MAC-4032f7a00bb14c29b86e8ded6670c405?pvs=21) 
 
-[**Rainmeter - Add a Windows desktop date widget **Rainmeter**](https://www.notion.so/Rainmeter-1bc9979deb7348c5b2ea9f809e0eb9f1?pvs=21)
+[Rainmeter - Add a Windows desktop date widget **Rainmeter**](https://www.notion.so/Rainmeter-1bc9979deb7348c5b2ea9f809e0eb9f1?pvs=21)
 
 # Bug
 - As of 2024.03.26, duplicate alt <--> ctrl swap shortcut exists in AutoHotKey and PowerToys, wasting memory
