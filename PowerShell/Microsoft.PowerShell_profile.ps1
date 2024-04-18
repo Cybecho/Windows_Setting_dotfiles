@@ -4,3 +4,7 @@
 
 oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/clean-detailed.omp.json' | Invoke-Expression
 Set-Alias open explorer
+Set-Alias vim nvim
+Set-Alias c 'C:\'
+Set-Alias sbu 'C:\SBU'
+Set-Alias univ 'C:\SBU\Univ_Catholic'
