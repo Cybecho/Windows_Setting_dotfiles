@@ -10,12 +10,14 @@ chocolatey-core.extension 1.4.0
 chocolatey-dotnetfx.extension 1.0.1
 chocolatey-visualstudio.extension 1.11.1
 chocolatey-windowsupdate.extension 1.0.5
+cura-new 5.6.0
 discord 1.0.9005
 discord.install 1.0.9005
 dotnet-8.0-desktopruntime 8.0.2
 dotnet-desktopruntime 8.0.2
 dotnetfx 4.8.0.20220524
 Firefox 123.0.1
+geekuninstaller 1.5.2.165
 git 2.44.0
 git.install 2.44.0
 github 3.2.0.20181119
@@ -27,6 +29,7 @@ KB3033929 1.0.5
 KB3035131 1.0.3
 mac-precision-touchpad 0.2105.3979
 neatmouse 1.5.5
+neovim 0.9.5
 notion 2.2.0
 obsidian 1.5.8
 powertoys 0.79.0
@@ -34,6 +37,7 @@ slack 4.36.140
 termius 8.9.9
 unifying 2.52.33
 vcredist140 14.38.33135
+vcredist2015 14.0.24215.20170201
 vim 9.1.198
 visualstudio2022community 117.9.3
 visualstudio-installer 2.0.3
