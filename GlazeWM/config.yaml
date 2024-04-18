@@ -271,7 +271,7 @@ keybindings:
   #
   # - command: "exec cmd"
   #~ C:\Program Files\WindowsApps\Microsoft.WindowsTerminalPreview_1.20.10572.0_x64__8wekyb3d8bbwe
-  - command: "exec cmd"
+  - command: "exec wt"
     bindings: ["Alt+LWin+Enter"]
 
   # Focus the workspace that last had focus.
