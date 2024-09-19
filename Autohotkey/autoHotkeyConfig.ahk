@@ -1,4 +1,4 @@
-;;;;기본 단축키;;;;
+;;;; 기본 단축키 ;;;;
 ;lt+A를 Ctrl+A로 리맵핑
 !a::
 Send, ^a
@@ -97,4 +97,16 @@ return
 
 ^m::
 Send, ^!m
+return
+
+;;;; 마우스 스크롤 단축키 추가 ;;;;
+
+; 윈도우키를 누른 상태에서 마우스 휠 다운 시 Win+Alt+Shift+H
+#WheelDown::
+Send, #!+h
+return
+
+; 윈도우키를 누른 상태에서 마우스 휠 업 시 Win+Alt+Shift+G
+#WheelUp::
+Send, #!+g
 return
