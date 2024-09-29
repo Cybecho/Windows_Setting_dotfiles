@@ -1,8 +1,10 @@
 general:
   # Commands to run when the WM has started (e.g. to run a script or launch
   # another application). Here we are running a batch script to start Zebar.
-  startup_commands: ["shell-exec %userprofile%/.glzr/zebar/start.bat"]
-
+  startup_commands:
+    - 'shell-exec zebar'
+    - 'shell-exec %userprofile%/.glzr/glazewm_monitoring.bat'
+  
   # Whether to automatically focus windows underneath the cursor.
   focus_follows_cursor: false
 
@@ -27,7 +29,7 @@ gaps:
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: "60px"
+    top: "60px" 
     right: "30px"
     bottom: "30px"
     left: "30px"
@@ -96,7 +98,7 @@ window_rules:
   # Ignore Task Manager and Screen Clipping Host.
   - commands: ["ignore"]
     match:
-      - window_process: { regex: "Taskmgr|ScreenClippingHost" }
+      - window_process: { regex: "Taskmgr|ScreenClippingHost|msedge|premeeng" }
       - window_process: { equals: "zebar" }
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: "[Pp]icture.in.[Pp]icture" }
@@ -140,7 +142,7 @@ window_rules:
   # Move specific applications to workspace 4.
   - commands: ["move --workspace 4"]
     match:
-      - window_process: { regex: "Spotify|Microsoft Edge" }
+      - window_process: { regex: "Spotify|Microsoft Edge|MicrosoftEdge" }
 
 binding_modes:
   - name: "resize"

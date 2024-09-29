@@ -37,7 +37,7 @@ window/bar:
     height: 100%;
     color: rgb(255 255 255 / 90%);
     font-family: ui-monospace, monospace;
-    font-size: 8px;
+    font-size: 18px;
     padding: 4px 24px;
     border-bottom: 1px solid rgb(255 255 255 / 5%);;
     background: linear-gradient(rgb(0 0 0 / 50%), rgb(5 2 20 / 65%));
@@ -188,7 +188,7 @@ window/bar:
 
         .charging-icon {
           position: absolute;
-          font-size: 11px;
+          font-size: 18px;
           left: 7px;
           top: 2px;
         }
