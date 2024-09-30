@@ -121,6 +121,9 @@ window_rules:
         window_class: { regex: 'HwndWrapper\[PowerToys\.PowerAccent.*?\]' }
       - window_process: { equals: "Lively" }
         window_class: { regex: "HwndWrapper*" }
+  - commands: ["set-floating"]
+    match:
+      - window_process: { regex: "kakaotalk|JumpClient|deepl" }
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
@@ -226,8 +229,8 @@ keybindings:
   # Launch CMD terminal. Alternatively, use `shell-exec wt` or
   # `shell-exec %ProgramFiles%/Git/git-bash.exe` to start Windows
   # Terminal and Git Bash respectively.
-  - commands: ["shell-exec cmd"]
-    bindings: ["alt+shift+enter"]
+  - commands: ["shell-exec wt"]
+    bindings: ["alt+shift+enter", "alt+Lwin+enter"]
 
   # Focus the next/previous workspace defined in `workspaces` config.
   - commands: ["focus --next-workspace"]
