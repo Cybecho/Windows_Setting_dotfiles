@@ -95,7 +95,7 @@ https://github.com/Cybecho/PowerToys_Keyboard_Addon
 
 ## 7. GlazeWM
 
-> [**(`config` File)**](https://github.com/Cybecho/Windows_Setting/blob/main/config.yaml)
+> [**(`config` File)**](https://github.com/Cybecho/Windows_Setting_dotfiles/blob/main/GlazeWM/.glzr/glazewm/config.yaml)
 
 [GlazeWM - i3 for Windows](https://www.notion.so/GlazeWM-i3-e197a8a316584a1c9fbe25f3c16f1317?pvs=21) 
 
