@@ -123,7 +123,7 @@ window_rules:
         window_class: { regex: "HwndWrapper*" }
   - commands: ["set-floating"]
     match:
-      - window_process: { regex: "kakaotalk|JumpClient|DeepL|obs64.exe|OBS" }
+      - window_process: { regex: "kakaotalk|JumpClient|DeepL|obs" }
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
