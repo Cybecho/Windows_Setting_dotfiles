@@ -10,13 +10,13 @@
  }
  
  i {
-   color: rgba(145, 157, 193, 0.389);
+   color: rgb(255, 255, 255 / 90%); /* 아이콘 크기 조절 및 색상 변경 */
    margin-right: 7px;
    font-size: calc(var(--bar-height) * 0.5); /* 아이콘 크기 조절 */
  }
  
  body {
-   color: rgb(255 255 255 / 30%);
+   color: rgb(255 255 255 / 60%); /* 기본 텍스트 색상 & 투명도*/
    font-family: ui-monospace, monospace;
    font-size: 11px; /* 폰트 크기 감소 */
    line-height: 1;  /* 줄 간격 조절 */
@@ -50,10 +50,12 @@
  
  .center {
    justify-self: center;
+   color: rgb(255, 255, 255 / 90%); /* 중앙 텍스트 색상 명확하게 */
  }
  
  .right {
    justify-self: end;
+   color: rgb(255, 255, 255 / 90%); /* 상태바 텍스트 색상 명확하게 */
  }
  
  .logo,
