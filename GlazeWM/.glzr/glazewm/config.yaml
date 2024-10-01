@@ -66,7 +66,7 @@ window_behavior:
   state_defaults:
     floating:
       # Whether to center floating windows by default.
-      centered: false
+      centered: true
 
       # Whether to show floating windows as always on top.
       shown_on_top: true
@@ -126,8 +126,24 @@ window_rules:
         window_class: { regex: "HwndWrapper*" }
   - commands: ["set-floating"]
     match:
-      - window_process: { regex: "kakaotalk|JumpClient|DeepL|obs" }
+      - window_process: { regex: "KakaoTalk|JumpClient|DeepL|obs" }
 
+  # move workspace rules
+  - commands: ["move --workspace 1"]
+    match:
+      - window_process: { regex: "chrome|Notion|brave|firefox" }
+  - commands: ["move --workspace 2"]
+    match:
+      - window_process: { regex: "Code|Cursor" }
+  - commands: ["move --workspace 3"]
+    match:
+      - window_process:
+          {
+            regex: "DeepL|KakaoTalk|GitHubDesktop|Discord|SystemSettings|설정|RoundedTB|JumpClient|obs",
+          }
+  - commands: ["move --workspace 4"]
+    match:
+      - window_process: { regex: "Spotify|Microsoft Edge" }
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
   - name: "resize"
