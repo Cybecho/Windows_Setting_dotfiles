@@ -2,7 +2,9 @@ general:
   # Commands to run when the WM has started. This is useful for running a
   # script or launching another application.
   # Example: The below command launches Zebar.
-  startup_commands: ["shell-exec zebar"]
+  startup_commands:
+    - "shell-exec zebar"
+    - "shell-exec %userprofile%/.glzr/glazewm_monitoring.bat"
 
   # Commands to run just before the WM is shutdown.
   # Example: The below command kills Zebar.
@@ -110,6 +112,7 @@ window_rules:
     match:
       - window_process:
           { regex: "Taskmgr|ScreenClippingHost|msedge|premeeng|explorer" }
+      - window_process: { regex: "firefox.exe" } # Firefox Developer Edition 추가
       - window_process: { equals: "zebar" }
 
       # Ignores picture-in-picture windows for browsers.
