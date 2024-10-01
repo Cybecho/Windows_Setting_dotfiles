@@ -9,12 +9,12 @@ for /F "tokens=1 delims=" %%i in ('wmic process where "Name='cscript.exe' and Co
     exit /b
 )
 
-:: 숨김 모드로 실행 설정
+:: 이미 숨김 모드로 실행되었는지 확인
 if "%1"=="hide" goto :hidden
 
 :: VBScript를 생성하여 배치 파일을 숨김 모드로 재실행
 echo Set WshShell = CreateObject("WScript.Shell") > "%~n0.vbs"
-echo WshShell.Run chr(34) ^& "%~fnx0" ^& chr(34) ^& " hide !uniqueID!", 0 >> "%~n0.vbs"
+echo WshShell.Run chr(34) ^& "%~fnx0" ^& chr(34) ^& " hide", 0 >> "%~n0.vbs"
 cscript //nologo "%~n0.vbs"
 del "%~n0.vbs"
 goto :eof
@@ -27,7 +27,7 @@ if "%ERRORLEVEL%"=="0" (
     REM glazewm.exe가 실행 중입니다.
 ) else (
     REM glazewm.exe가 실행 중이 아니므로 재실행합니다.
-    start "C:\Program Files\glzr.io\GlazeWM\glazewm.exe"
+    start "" "C:\Program Files\glzr.io\GlazeWM\glazewm.exe"
 )
 
 :: 5초 대기
