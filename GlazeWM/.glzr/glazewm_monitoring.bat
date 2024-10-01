@@ -20,17 +20,27 @@ del "%~n0.vbs"
 goto :eof
 
 :hidden
-:: GlazeWM 프로세스 모니터링 및 재실행 루프
-:loop
+:: GlazeWM 프로세스 모니터링
 tasklist /FI "IMAGENAME eq glazewm.exe" 2>NUL | find /I "glazewm.exe" >NUL
 if "%ERRORLEVEL%"=="0" (
-    REM glazewm.exe가 실행 중입니다.
+    REM glazewm.exe가 실행 중입니다. 종료될 때까지 대기합니다.
+    :waitForExit
+    timeout /T 1 /NOBREAK >NUL
+    tasklist /FI "IMAGENAME eq glazewm.exe" 2>NUL | find /I "glazewm.exe" >NUL
+    if "%ERRORLEVEL%"=="0" (
+        goto waitForExit
+    ) else (
+        REM glazewm.exe가 종료되었습니다. 재실행합니다.
+        start "" "C:\Program Files\glzr.io\GlazeWM\glazewm.exe"
+        timeout /T 2 >NUL
+        exit /b
+    )
 ) else (
-    REM glazewm.exe가 실행 중이 아니므로 재실행합니다.
+    REM glazewm.exe가 실행 중이 아니므로 실행합니다.
     start "" "C:\Program Files\glzr.io\GlazeWM\glazewm.exe"
+    timeout /T 2 >NUL
+    exit /b
 )
 
-:: 5초 대기
-timeout /T 5 /NOBREAK >NUL
-
-goto loop
+:: 작업 완료 후 종료
+exit /b
