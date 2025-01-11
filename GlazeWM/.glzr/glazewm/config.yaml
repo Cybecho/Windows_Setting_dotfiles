@@ -99,36 +99,38 @@ window_behavior:
 # bind_to_monitor 활성화하면 프로세스들이 뒤로 밀림
 workspaces:
   - name: "1"
-    display_name: "Work"
+    # display_name: "Work"
     # bind_to_monitor: 1
     keep_alive: true
   - name: "2"
-    display_name: "Code"
+    # display_name: "Code"
     # bind_to_monitor: 1
     keep_alive: true
   - name: "3"
-    display_name: "Util"
+    # display_name: "Util"
     # bind_to_monitor: 1
     keep_alive: true
   - name: "4"
-    display_name: "Music"
+    # display_name: "Music"
     # bind_to_monitor: 1
     keep_alive: true
   - name: "5"
-    display_name: "Other"
+    # display_name: "Other"
     # bind_to_monitor: 1
     keep_alive: true
-  - name: "6"
-  - name: "7"
-  - name: "8"
-  - name: "9"
+    # - name: "6"
+    # - name: "7"
+    # - name: "8"
+    # - name: "9"
 
 window_rules:
   # Ignore Task Manager and Screen Clipping Host.
   - commands: ["ignore"]
     match:
       - window_process:
-          { regex: "Taskmgr|ScreenClippingHost|msedge|premeeng|explorer" }
+          {
+            regex: "Taskmgr|ScreenClippingHost|msedge|premeeng|explorer|ChatGPT",
+          }
       - window_process: { regex: "firefox.exe" } # Firefox Developer Edition 추가
       - window_process: { equals: "zebar" }
 
@@ -143,16 +145,16 @@ window_rules:
         window_class: { regex: "HwndWrapper*" }
   - commands: ["set-floating"]
     match:
-      - window_process: { regex: "KakaoTalk|JumpClient|DeepL|obs" }
+      - window_process: { regex: "KakaoTalk|JumpClient|DeepL|obs|ChatGPT" }
 
   # move workspace rules
-  - commands: ["move --workspace 1"]
-    match:
-      - window_process: { regex: "chrome|Notion|brave|firefox" }
-  - commands: ["move --workspace 2"]
-    match:
-      - window_process: { regex: "Code|Cursor" }
-  - commands: ["move --workspace 3"]
+  # - commands: ["move --workspace 1"]
+  #   match:
+  #     - window_process: { regex: "brave|firefox" }
+  # - commands: ["move --workspace 2"]
+  #   match:
+  #     - window_process: { regex: "Code|Cursor" }
+  - commands: ["move --workspace 5"]
     match:
       - window_process:
           {
@@ -160,7 +162,7 @@ window_rules:
           }
   - commands: ["move --workspace 4"]
     match:
-      - window_process: { regex: "Spotify|Microsoft Edge" }
+      - window_process: { regex: "Spotify" }
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
   - name: "resize"
@@ -289,14 +291,14 @@ keybindings:
     bindings: ["alt+4"]
   - commands: ["focus --workspace 5"]
     bindings: ["alt+5"]
-  - commands: ["focus --workspace 6"]
-    bindings: ["alt+6"]
-  - commands: ["focus --workspace 7"]
-    bindings: ["alt+7"]
-  - commands: ["focus --workspace 8"]
-    bindings: ["alt+8"]
-  - commands: ["focus --workspace 9"]
-    bindings: ["alt+9"]
+    # - commands: ["focus --workspace 6"]
+    # bindings: ["alt+6"]
+    # - commands: ["focus --workspace 7"]
+    # bindings: ["alt+7"]
+    # - commands: ["focus --workspace 8"]
+    # bindings: ["alt+8"]
+    # - commands: ["focus --workspace 9"]
+    # bindings: ["alt+9"]
 
   # Move the focused window's parent workspace to a monitor in a given
   # direction.
@@ -320,11 +322,11 @@ keybindings:
     bindings: ["alt+shift+4"]
   - commands: ["move --workspace 5", "focus --workspace 5"]
     bindings: ["alt+shift+5"]
-  - commands: ["move --workspace 6", "focus --workspace 6"]
-    bindings: ["alt+shift+6"]
-  - commands: ["move --workspace 7", "focus --workspace 7"]
-    bindings: ["alt+shift+7"]
-  - commands: ["move --workspace 8", "focus --workspace 8"]
-    bindings: ["alt+shift+8"]
-  - commands: ["move --workspace 9", "focus --workspace 9"]
-    bindings: ["alt+shift+9"]
+    # - commands: ["move --workspace 6", "focus --workspace 6"]
+    # bindings: ["alt+shift+6"]
+    # - commands: ["move --workspace 7", "focus --workspace 7"]
+    # bindings: ["alt+shift+7"]
+    # - commands: ["move --workspace 8", "focus --workspace 8"]
+    # bindings: ["alt+shift+8"]
+    # - commands: ["move --workspace 9", "focus --workspace 9"]
+    # bindings: ["alt+shift+9"]
