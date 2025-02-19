@@ -129,7 +129,7 @@ window_rules:
     match:
       - window_process:
           {
-            regex: "Taskmgr|ScreenClippingHost|msedge|premeeng|explorer|ChatGPT",
+            regex: "Taskmgr|ScreenClippingHost|msedge|premeeng|explorer|ChatGPT|SnippingTool",
           }
       - window_process: { regex: "firefox.exe" } # Firefox Developer Edition 추가
       - window_process: { equals: "zebar" }
